@@ -52,4 +52,17 @@
 
    For more information kindly refer [User's Guide](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.694.6340&rep=rep1&type=pdf)
    
-   THANK YOU..
+  > I faced an error during converting different types like html,markdown,docx etc to pdf.
+  >> for converting into pdf follow below steps
+  >> 1. First you have to install latex. ![follow this](https://miktex.org/download)
+  >> 2. After installing check pdf engine install in Command prompt with --pdf-engine command.
+  >> 3. Check below packages are installed or not . 
+  >>> g LaTeX packages are available: amssymb, amsmath, ifxetex,
+ifluatex, listings (if the --listings option is used), fancyvrb, longtable, url,
+graphicx, hyperref, ulem, babel (if the lang variable is set), fontspec (if xelatex or
+lualatex is used as the LaTeX engine), xltxtra and xunicode (if xelatex is used).
+
+> Now convert into pdf.
+  Use command ( pandoc input.extension -o output.pdf)
+   
+   THANK YOU.. :smile:
