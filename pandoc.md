@@ -41,6 +41,7 @@
   5. now see your code changed from one markup language to other.
   sample screenshot
   ![Screenshot (142)](https://user-images.githubusercontent.com/98117962/180228623-239c743b-ff85-4ca1-a7aa-2f4688af1d1a.png)
+ 
  This what happen when user does not provide the input and output type of file.
  So, *pandoc* consider **markdown** as input and **html** as output.
  
