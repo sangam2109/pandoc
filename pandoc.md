@@ -1,4 +1,4 @@
-> What is Pandoc?
+# What is Pandoc?
  
  Pandoc is a free-software document converter,
  widely used as a writing tool and as a basis for publishing workflows.
@@ -7,7 +7,7 @@
 
  ---
 
- >Features of pandoc?
+ # Features of pandoc?
  
   1. With the help of this converter you easily convert one markup format to other.
   2. It can also be able to handle mathematics contain latex and convert it into pdf,text or any other format.
@@ -15,7 +15,7 @@
 
   ---
 
-  > How to install pandoc?
+  # How to install pandoc?
   
   1. Go to pandoc.org .
   2. Click the icon displayed top left named installing .
@@ -25,13 +25,15 @@
 
   ---
 
-  > After installation.
+  # After installation.
   1. Open a terminal.
   To verify pandoc is installed or not.
   **Use (pandoc --version) command in cmd.**
   
   ---
-  > Simple conversion commands in command prompt
+  
+  # Simple conversion commands in command prompt
+  
   1. First you can simply write pandoc in cmd.
   2. write a simple text it in html or markdown language.
   3. press ctrl+z in windows or ctrl+d in linux.
@@ -42,7 +44,9 @@
  This what happen when user does not provide the input and output type of file.
  So, *pandoc* consider **markdown** as input and **html** as output.
  
- > How to specify input and output commands in pandoc
+ ---
+ 
+ # How to specify input and output commands in pandoc
   
   Sample command to convert a file text file to html.
   1. for simple output file 
@@ -53,7 +57,10 @@
 
    For more information kindly refer [User's Guide](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.694.6340&rep=rep1&type=pdf)
    
-  > I faced an error during converting different types like html,markdown,docx etc to pdf.
+   ---
+   
+   
+  # I faced an error during converting different types like html,markdown,docx etc to pdf.
   
     for converting into pdf follow below steps
    1. First you have to install latex. [follow this](https://miktex.org/download)
@@ -64,7 +71,9 @@ ifluatex, listings (if the --listings option is used), fancyvrb, longtable, url,
 graphicx, hyperref, ulem, babel (if the lang variable is set), fontspec (if xelatex or
 lualatex is used as the LaTeX engine), xltxtra and xunicode (if xelatex is used).
 
-> Now convert into pdf.
+---
+
+# Now convert into pdf.
  
  Use command ( pandoc input.extension -o output.pdf)
    
